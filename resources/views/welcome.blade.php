@@ -14,5 +14,6 @@
 @endsection
 
 @section('content')
-    テスト
-@endsections
+    @include('items.items')
+    {!! $items->render() !!}
+@endsection
